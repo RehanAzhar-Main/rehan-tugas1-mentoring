@@ -1,0 +1,96 @@
+.center-everything{
+    text-align: center;
+}
+
+.row-center{
+    position: relative ; 
+    padding-left: 80px;
+}
+
+section {
+    text-align: center ; 
+    float: left ; 
+    width: 30%; 
+    padding: 0 10px;
+}
+
+.card {
+    padding: 16px; 
+    text-align: center ;
+}
+
+img {
+    max-width: 100%;
+}
+
+form {
+    margin: 25px 0px 150px 0px;
+}
+  
+form label{ 
+    font-size : 1.2em;
+    font-weight: 700px;
+    display: block; 
+}
+
+input, select {
+    width: 50%;
+    padding: 12px 10px;
+    margin: 10px 55px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit {
+    color: #fff;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 60px;
+    right:125px;
+  }
+  
+  .submit:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+  
+  .submit:hover {
+    background-color: #45a049;
+  }
+  
+  textarea {
+    width: 70%;
+    height: 150px;
+    padding: 12px 10px;
+    margin: 10px 55px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .form{
+    text-align: left ; 
+    float: left ; 
+    width: 100%; 
+    padding: 0 10px;
+    margin-top: 30px;
+  }
+
+  .form span {
+    font-size: 18px;
+  }
